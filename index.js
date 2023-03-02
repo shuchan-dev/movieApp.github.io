@@ -8,7 +8,7 @@ let result = document.getElementById("result");
 let getMovie = () => {
   let movieName = movieNameRef.value;
   let y = year.value;
-  let url = `http://www.omdbapi.com/?t=${movieName}&y=${y}&apikey=${key}`;
+  let url = `https://www.omdbapi.com/?t=${movieName}&y=${y}&apikey=${key}`;
 
   // if input failed empty
 
